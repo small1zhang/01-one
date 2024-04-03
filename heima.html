@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>人工智能学习路线图2024版-黑马程序员人工智能技术路线</title>
+    <meta name="keywords" content="人工智能技术路线,人工智能学习路线图" />
+    <meta
+      name="description"
+      content="黑马程序员新版人工智能学习路线图，6个月AI时下火热，助你扶摇直上！"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <meta
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        name="viewport"
+      />
+      <script type="text/Javascript" src="/js/jquery-1.11.1.min.js"></script>
+      <script type="text/Javascript" src="/js/jssdk-min.js"></script>
+      <div style="display: none">
+        <script
+          type="text/javascript"
+          src="https://s4.cnzz.com/z_stat.php?id=1261487506&web_id=1261487506"
+        ></script>
+      </div>
+
+      <script src="//www.itheima.com/js/zhuge.js"></script>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://www.itheima.com/css/zx.css"
+      />
+
+      <style>
+        .zx {
+          right: 12px;
+        }
+        .zx .cxhdpic3 {
+          position: absolute;
+          right: 0 !important;
+          top: -138px !important;
+          z-index: 99999;
+          width: 123px !important;
+          display: none;
+        }
+        .zx img {
+          display: block;
+          width: 100%;
+        }
+
+        .returnmap {
+          display: none;
+        }
+
+        .header {
+          width: 93%;
+          height: 80px;
+          box-shadow: 0 3px 9px rgb(228, 228, 228, 0.3);
+          padding: 0 3.5%;
+        }
+        .header h2 {
+          float: left;
+          width: 150px;
+          margin: 20px 0 0 0;
+        }
+        .header .fl {
+          float: left;
+          width: 500px;
+          margin: 30px 0 0 38px;
+        }
+        .header .fl li {
+          position: relative;
+          float: left;
+          margin-right: 22px;
+        }
+        .header .fl li:last-child {
+          margin-right: 0;
+        }
+        .header .fl li a {
+          display: block;
+          height: 46px;
+          font-size: 16px;
+          color: #474747;
+        }
+        .header .fl li a:hover {
+          color: #d5221e;
+        }
+        .header .fl li a.nav_on {
+          color: #d5221e;
+          border-bottom: 4px #d5221e solid;
+        }
+        .header .fdnav {
+          display: none;
+          position: absolute;
+          left: -160px;
+          top: 50px;
+          width: 521px;
+          background: rgba(255, 255, 255, 1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          overflow: hidden;
+        }
+        .header .fdnav .fdnav_main {
+          width: 522px;
+          margin: 0 auto;
+          padding: 1px 0 0;
+          overflow: hidden;
+        }
+        .header .fdnav .fdnav_main p {
+          float: left;
+          width: 260px;
+          height: 64px;
+          border-right: 1px #f9f9f9 solid;
+          border-bottom: 1px #f9f9f9 solid;
+        }
+        /* .header .fdnav .fdnav_main p.jcdl_icon{width: 300px;} */
+
+        .header .fdnav .fdnav_main p a {
+          display: block;
+          width: auto;
+        }
+        .header .fdnav .fdnav_main p img {
+          display: block;
+          margin: 0 auto;
+          float: left;
+          margin-right: 10px;
+          width: 22px;
+        }
+        .header .fdnav .fdnav_main p span {
+          float: left;
+          color: #7b7b7b;
+          margin-right: 0;
+          font-size: 14px;
+          line-height: 64px;
+        }
+        .header .fdnav .fdnav_main p.twolin span {
+          line-height: 20px;
+        }
+        .header .fdnav .fdnav_main p.li_last {
+          border-right: 0;
+        }
+        .header .fdnav .fdnav_main p:hover span {
+          color: #d50212;
+        }
+        .header .fdnav .fdnav_main p em {
+          float: left;
+          width: 36px;
+          margin: 14px 6px 0 18px;
+          height: 36px;
+          border-radius: 50%;
+        }
+        .header .fdnav .fdnav_main p em img {
+          width: 100%;
+        }
+        .header .fdnav .fdnav_main p.java_icon em {
+          margin-top: 10px;
+        }
+        .header .fl li:hover .fdnav {
+          display: block;
+        }
+
+        .header .head_sub {
+          float: right;
+          width: 328px;
+          height: 38px;
+          border: 1px #dee0ea solid;
+          border-radius: 5px;
+          margin: 20px 0 0 90px;
+        }
+        .header .head_sub .head_tit {
+          width: 100%;
+          height: 100%;
+          position: relative;
+        }
+        .header .head_sub .head_tit b {
+          float: left;
+          width: 85px;
+          height: 26px;
+          line-height: 26px;
+          margin-top: 6px;
+          border-right: 1px #ededed solid;
+          font-size: 15px;
+          color: #828282;
+          text-align: center;
+          font-weight: 100;
+        }
+        .header .head_sub .head_tit p {
+          font-size: 15px;
+          color: #929292;
+          float: left;
+          line-height: 38px;
+          padding-left: 10px;
+          width: 212px;
+          cursor: pointer;
+        }
+        .header .head_sub .head_tit p img {
+          position: absolute;
+          width: 8px;
+          right: 12px;
+          top: 17px;
+        }
+        .header .head_sub .head_tit .xqalls {
+          position: absolute;
+          padding: 5px 0 5px 10px;
+          width: 320px;
+          max-height: 150px;
+          border: 1px #dee0ea solid;
+          border-top: none;
+          left: -1px;
+          top: 36px;
+          background: #fff;
+          overflow-y: auto;
+          z-index: 6;
+          display: none;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+        .header .head_sub .head_tit .xqalls ul li {
+          line-height: 30px;
+        }
+        .header .head_sub .head_tit .xqalls ul li a {
+          font-size: 14px;
+          color: #838383;
+          display: block;
+          width: 100%;
+        }
+        .header .head_sub .head_tit .xqalls ul li a:hover {
+          color: #216ef4;
+        }
+        .header .head_sub .head_tit .xqalls::-webkit-scrollbar {
+          width: 5px;
+          height: 1px;
+        }
+        .header .head_sub .head_tit .xqalls::-webkit-scrollbar-thumb {
+          width: 5px;
+          border-radius: 5px;
+          background: #216ef4;
+        }
+        .header .head_sub .head_tit .xqalls::-webkit-scrollbar-track {
+          width: 5px;
+          height: 1px;
+        }
+        .header .head_sub:hover .head_tit b {
+          display: none;
+        }
+        .header .head_sub:hover .head_tit .xqalls {
+          display: block;
+        }
+
+        .banjava {
+          background: url("/subject/javamap/images/ewm3.jpg") no-repeat right
+            center;
+          background-size: 480px;
+          padding: 40px 0 50px;
+          width: 93%;
+          margin: 0 auto;
+        }
+        .banjava h2 {
+          font-size: 24px;
+          color: #151515;
+          font-weight: bold;
+        }
+        .banjava h2 span {
+          font-size: 28px;
+        }
+
+        .banjava p span {
+          display: inline-block;
+          height: 37px;
+          font-size: 18px;
+          color: #fff;
+          line-height: 37px;
+          border-radius: 19px;
+          background: #0cc7a5;
+          padding: 0 18px;
+          margin: 15px 0 0 0;
+        }
+        .box ul li {
+          background: #fff;
+        }
+        .box ul li .boxlidiv {
+          background: #f5f9ff;
+          padding-bottom: 16px;
+        }
+        .box ul li h3 span.no {
+          display: none;
+        }
+        .box ul li h3 span.no2 {
+          display: none;
+        }
+
+        .box ul li .boxbot2 {
+          border-radius: 10px;
+          box-shadow: inset 0 0 50px rgba(175, 214, 249, 0.56);
+          background: #f5f9ff;
+          margin-top: 24px;
+          padding: 28px 25px;
+        }
+        .box ul li .boxbot2 h4 {
+          font-size: 14px;
+          color: #000;
+          font-weight: bold;
+          margin-bottom: 8px;
+        }
+        .box ul li .boxbot2 span {
+          display: block;
+          font-size: 12px;
+          color: #000;
+          line-height: 22px;
+        }
+
+        .box ul li .boxa {
+          overflow: hidden;
+          padding: 0 0 15px;
+        }
+        .box ul li .boxa span {
+          color: #fff;
+          font-weight: bold;
+          background: #0cc7a5 url("/subject/javamap/images/pcdbg1.jpg")
+            no-repeat right bottom;
+          padding: 8px 6%;
+        }
+        .box ul li .boxa a {
+          width: 89%;
+          color: #000;
+          box-sizing: border-box;
+          line-height: 16px;
+          font-weight: normal;
+          border-bottom: 1px #0cc7a5 dashed;
+          overflow: hidden;
+          padding: 12px 0 12px 40px;
+          margin: 0 auto;
+        }
+        .box ul li .boxa a:before {
+          left: 0;
+          top: 50%;
+          width: 35px;
+          height: 35px;
+          background: url("/subject/javamap/images/pcdvid1.png") no-repeat 0 0;
+          margin-top: -17.5px;
+        }
+        .box ul li .boxa a:hover {
+          color: #0cc7a5;
+        }
+        .box ul li img.pc {
+          display: block;
+          max-width: 236px;
+          margin: 30px auto 0;
+        }
+        .box ul li img.yd {
+          display: none;
+        }
+
+        .box ul li .boxa a i {
+          display: block;
+        }
+        @media screen and (max-width: 1650px) {
+          .banjava {
+            background-size: 394px;
+            padding: 35px 0 40px;
+          }
+        }
+        @media screen and (max-width: 500px) {
+          .wrap {
+            overflow: hidden;
+          }
+          .zx {
+            display: none;
+          }
+          body {
+            min-width: 100%;
+          }
+          .ban h2 {
+            font-size: 1.3rem;
+            padding: 0 20px 0 0;
+          }
+          .ban h2 em {
+            display: block;
+          }
+          .ban h2 span {
+            display: inline-block;
+          }
+          .ban p {
+            font-size: 0.9rem;
+            padding: 0 3%;
+          }
+          .ban {
+            padding: 30px 0;
+          }
+          .ban h2 i {
+            right: -55px;
+            top: -10px;
+            width: 50px;
+          }
+          .box ul li {
+            float: none;
+            width: 98.1% !important;
+            margin: 0 1% 5%;
+          }
+          .box ul li:after,
+          .header .fl {
+            display: none;
+          }
+          .boxbotmain {
+            width: 92%;
+            min-width: auto;
+            padding-right: 10px;
+          }
+          .header h2 {
+            width: 102px;
+            margin: 25px 0 0 13px;
+          }
+          .header .head_sub {
+            position: absolute;
+            right: 4%;
+            width: 186px;
+          }
+          .header .head_sub .head_tit b {
+            font-size: 0.9rem;
+            width: 68px;
+            margin-right: 5px;
+            display: none;
+          }
+          .header .head_sub .head_tit p {
+            font-size: 0.9rem;
+            float: none;
+            width: auto;
+          }
+
+          .header .head_sub .head_tit .xqtop {
+            width: 90%;
+            height: 38px;
+            overflow: hidden;
+          }
+          .header .head_sub .head_tit .xqalls {
+            width: 176px;
+          }
+          .boxbotmain p span.span2 {
+            width: 76%;
+          }
+
+          .banjava {
+            background: none;
+            padding: 30px 0;
+          }
+          .banjava h2 {
+            font-size: 19px;
+            text-align: center;
+          }
+          .banjava h2 span {
+            font-size: 22px;
+            display: block;
+          }
+          .banjava p {
+            width: 88%;
+            background: #caf3eb;
+            border-radius: 50px;
+            text-align: center;
+            margin: 15px auto 0;
+          }
+          .banjava p span {
+            width: 90%;
+            height: auto;
+            font-size: 15px;
+            text-align: center;
+            line-height: 22px;
+            border-radius: 50px;
+            background: -moz-linear-gradient(to bottom, #0cc7a5, #08ad8f);
+            background: linear-gradient(to bottom, #0cc7a5, #08ad8f);
+            padding: 7px 0;
+            margin: 0;
+          }
+          .banjava p span em {
+            display: block;
+            opacity: 0;
+            height: 0;
+          }
+          /* .box ul li .boxlidiv{padding-bottom: 0;} */
+          /* .box ul li{background: #f5f9ff;} */
+          .box ul li h3 span {
+            display: inline !important;
+          }
+          .box ul li h3 span.no2 {
+            font-size: 14px;
+          }
+          .box ul li.boxli5 h3 {
+            line-height: 60px;
+          }
+          .box ul li .boxa a i {
+            display: inline;
+          }
+          .box ul li .boxa {
+            padding: 20px 4% 15px;
+          }
+          .box ul li .boxa span {
+            font-size: 17px;
+            color: #000;
+            font-weight: bold;
+            background: none;
+            padding: 0;
+          }
+          .box ul li .boxa a {
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            font-weight: bold;
+            line-height: 1.4rem;
+            border-bottom: none;
+            box-sizing: border-box;
+            border-radius: 10px;
+            background: #fca356 url("/subject/javamap/images/yddbg1.jpg")
+              no-repeat right bottom;
+            background-size: 60%;
+            overflow: hidden;
+            margin: 0.8rem 0 0 0;
+            padding: 17px 4% 17px 22%;
+          }
+          .box ul li .boxa a:hover {
+            color: #fff;
+          }
+          .box ul li .boxa a:before {
+            left: 4.5%;
+            top: 50%;
+            width: 45px;
+            height: 45px;
+            background: url("/subject/javamap/images/yddvid1.jpg") no-repeat;
+            background-size: 100%;
+            margin-top: -22.5px;
+          }
+          .box ul li .boxa a:nth-child(odd) {
+            background: #89bf6b url("/subject/javamap/images/yddbg2.jpg")
+              no-repeat right bottom;
+            background-size: 62%;
+          }
+          .box ul li .boxa a:nth-child(odd):before {
+            background-image: url("/subject/javamap/images/yddvid2.jpg");
+          }
+          .box ul li img.pc {
+            display: none;
+          }
+          .box ul li img.yd {
+            display: block;
+            padding-top: 30px;
+            background: #fff;
+          }
+          .returnmap {
+            position: fixed;
+            left: 0;
+            top: 70%;
+            font-size: 13px;
+            color: #fff;
+            height: 25px;
+            line-height: 25px;
+            border-radius: 0 12px 12px 0;
+            background: rgba(63, 166, 255, 0.8);
+            padding: 0 16px 0 20px;
+            z-index: 10;
+          }
+          .returnmap:before {
+            position: absolute;
+            left: 3px;
+            top: 6px;
+            width: 13px;
+            height: 13px;
+            background: url("/Wap/images/leftjt.png") no-repeat;
+            background-size: 100%;
+            content: "";
+          }
+        }
+      </style>
+      <a href="javascript:;" class="returnmap" id="returnmap">返回</a>
+      <div class="header clears">
+        <h2>
+          <img src="http://www.itheima.com/images/logo.png" alt="黑马程序员" />
+        </h2>
+        <ul class="fl clear">
+          <li><a href="/?hm">视频库首页</a></li>
+          <li><a href="/map?hm">免费视频教程</a></li>
+          <li>
+            <a href="javascript:;" class="nav_on">学习路线图</a>
+            <div class="fdnav">
+              <div class="fdnav_main">
+                <p class="java_icon">
+                  <a
+                    href="/subject/javamap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subjavaee.png" /></em
+                    ><span>JavaEE</span></a
+                  >
+                </p>
+
+                <p class="hm_icon">
+                  <a
+                    href="/subject/hmonlinemap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subhm.png" /></em
+                    ><span>鸿蒙应用开发</span></a
+                  >
+                </p>
+                <p class="web_icon">
+                  <a
+                    href="/subject/webmap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subweb.png" /></em
+                    ><span>HTML&amp;JS+前端</span></a
+                  >
+                </p>
+                <p class="python_icon">
+                  <a
+                    href="/subject/cloudmap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subpython.png" /></em
+                    ><span>Python+大数据开发</span></a
+                  >
+                </p>
+                <p class="ai_icon">
+                  <a
+                    href="/subject/aimap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subai.png" /></em
+                    ><span>人工智能开发</span></a
+                  >
+                </p>
+                <p class="ui_icon">
+                  <a
+                    href="/subject/uimap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subui.png" /></em
+                    ><span>电商视觉设计</span></a
+                  >
+                </p>
+                <p class="test_icon">
+                  <a
+                    href="/subject/testmap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subtest.png" /></em
+                    ><span>软件测试</span></a
+                  >
+                </p>
+                <p class="xmt_icon">
+                  <a
+                    href="/subject/xmtmap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subxmt.png" /></em
+                    ><span>新媒体+短视频直播运营</span></a
+                  >
+                </p>
+                <p class="pm_icon">
+                  <a
+                    href="/subject/pmmap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subpm.png" /></em
+                    ><span>产品经理</span></a
+                  >
+                </p>
+
+                <p class="jcdl_icon">
+                  <a
+                    href="/subject/jcdlmap/index.html"
+                    rel="nofollow"
+                    target="_blank"
+                    ><em
+                      ><img
+                        src="http://www.itheima.com/2020gw/images/subjcdl.png" /></em
+                    ><span>集成电路应用开发（含嵌入式）</span></a
+                  >
+                </p>
+              </div>
+            </div>
+          </li>
+          <li><a href="/open?hm">直播公开课</a></li>
+          <li><a href="/gongju?hm">学习工具</a></li>
+        </ul>
+        <div class="head_sub">
+          <div class="head_tit">
+            <div class="xqtop">
+              <b>选择学科</b>
+              <p>
+                <span>JavaEE</span
+                ><img src="http://www.itheima.com/2020gw/images/kczxdown.png" />
+              </p>
+            </div>
+            <div class="xqalls">
+              <ul>
+                <li>
+                  <a href="/subject/javamap/index.html" target="_blank"
+                    >JavaEE</a
+                  >
+                </li>
+
+                <li>
+                  <a href="/subject/hmonlinemap/index.html" target="_blank"
+                    >鸿蒙应用开发</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/webmap/index.html" target="_blank"
+                    >HTML&JS+前端</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/cloudmap/index.html" target="_blank"
+                    >Python+大数据开发</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/aimap/index.html" target="_blank"
+                    >人工智能开发</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/uimap/index.html" target="_blank"
+                    >电商视觉设计</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/testmap/index.html" target="_blank"
+                    >软件测试</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/xmtmap/index.html" target="_blank"
+                    >新媒体+短视频直播运营</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/pmmap/index.html" target="_blank"
+                    >产品经理</a
+                  >
+                </li>
+                <li>
+                  <a href="/subject/jcdlmap/index.html" target="_blank"
+                    >集成电路应用开发（含嵌入式）</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="zx zx2021">
+        <ul>
+          <!-- <li class="li_zxtop">
+			<a href="javascript:;" class="itcast_click" rel="nofollow">
+				<span class="icon_s">&nbsp;</span>
+				<p id="loading">咨询</p>
+			</a>
+		</li> -->
+          <li class="li_st">
+            <a href="javascript:;" class="itcast_click" rel="nofollow">
+              <span class="icon_s">&nbsp;</span>
+              <p>试听</p>
+            </a>
+          </li>
+          <li class="li_bm">
+            <a href="https://www.itheima.com/flow/flow.html" target="_blank">
+              <span class="icon_s">&nbsp;</span>
+              <p>报名</p>
+            </a>
+          </li>
+        </ul>
+        <div class="li_6" id="back">
+          <a href="javascript:void(0);">
+            <span class="icon_s">&nbsp;</span>
+          </a>
+        </div>
+      </div>
+      <script src="https://www.itheima.com/js/zx.js"></script>
+      <script>
+        var locurl = location.search;
+        var locurlsrc;
+        if (locurl.indexOf("?") != -1) {
+          var one = locurl.lastIndexOf("?");
+          locurl = locurl.substring(one, locurl.length);
+          locurlsrc = locurl.substr(1);
+        }
+        $.get(
+          "//yun.itheima.com/api.php/itcast/history",
+          { url: window.location.href },
+          function (data) {
+            if (data) {
+              var dataurl = urlFn(data);
+              $("#returnmap").attr("href", dataurl);
+              $("#returnmap").show();
+            }
+          }
+        );
+        function urlFn(hrefurl) {
+          if (hrefurl.indexOf("?") != -1) {
+            return hrefurl + "$" + locurlsrc;
+          } else {
+            return hrefurl + "?" + locurlsrc;
+          }
+        }
+
+        $(".head_tit").each(function () {
+          var s = $(this);
+          var dt = $(this).children("b");
+          var dd = $(this).children(".xqalls");
+          var ind = 0;
+          var _show = function () {
+            dd.show();
+            dt.hide();
+            ind = 1;
+          };
+          var _hide = function () {
+            dd.hide();
+            dt.show();
+            ind = 0;
+          };
+          s.click(function () {
+            ind == 0 ? _show() : _hide();
+          });
+          $("body").click(function (i) {
+            !$(i.target).parents(".head_tit").first().is(s) ? _hide() : "";
+          });
+        });
+
+        setTimeout(function () {
+          $(".qimo_zx").show();
+        }, 6000);
+        $(".cxhdpic2,.cxhdpic1").hover(
+          function () {
+            $(".cxhdpic1").show();
+          },
+          function () {
+            $(".cxhdpic1").hide();
+          }
+        );
+
+        $("body").on("click", ".itcast_click", function () {
+          qimosdk.hideChatBox();
+          setTimeout(function () {
+            qimoChatClick();
+          }, 200);
+
+          zhuge.track("咨询点击-视频库");
+        });
+
+        setTimeout(function () {
+          var timer = null;
+          var qimo_chatpup = document.getElementById("qimo_chatpup");
+          $("body").on("click", ".itcast_click", function () {
+            qimosdk.hideChatBox();
+            qimo_chatpup.style.bottom = "-500px";
+            setTimeout(function () {
+              qimoChatClick();
+              var ind = -500;
+              timer = setInterval(function () {
+                ind += 20;
+                if (ind > -20) {
+                  clearInterval(timer);
+                }
+                qimo_chatpup.style.bottom = ind + "px";
+              }, 1);
+            }, 200);
+          });
+        }, 1500);
+
+        //控制页面跳转---小程序、公众号、非微信跳转方式 【modelName---vue路由名字】
+        function navigate(modelName) {
+          this.isMiniProgram(function (res) {
+            //判断是否是小程序页面的回调函数
+            if (res) {
+              //小程序页面
+              wx.miniProgram.navigateTo({
+                url: "/pages/classes/classes?id=" + modelName,
+              });
+            } else {
+              window.open(
+                "http://yun.itheima.com/course/" + modelName + ".html"
+              );
+            }
+          });
+        }
+        function isMiniProgram(callback) {
+          //是否为小程序环境
+          //是否在微信环境
+          if (!isWeixin()) {
+            callback(false);
+          } else {
+            //微信API获取当前运行环境
+            wx.miniProgram.getEnv(function (res) {
+              if (res.miniprogram) {
+                //小程序环境
+                callback(true);
+              } else {
+                callback(false);
+              }
+            });
+          }
+        }
+
+        function isWeixin() {
+          var ua = navigator.userAgent.toLowerCase();
+          if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            return true;
+          } else {
+            return false;
+          }
+        }
+      </script>
+      <script>
+        $(".header .head_sub .head_tit p span").text("人工智能开发");
+      </script>
+      <style>
+        @media screen and (max-width: 500px) {
+          .banjava p {
+            width: 100%;
+          }
+          .banjava p span {
+            width: 92%;
+          }
+        }
+      </style>
+      <div class="banjava">
+        <h2><span>黑马程序员人工智能学习路线图</span>（2024官方完整版）</h2>
+        <p>
+          <span
+            >6个月，AI时下火热，助你扶摇直上<em>！</em>下方含全套视频+源码资料</span
+          >
+        </p>
+      </div>
+      <div class="box">
+        <ul>
+          <li class="boxli1">
+            <div class="boxlidiv">
+              <h3>
+                <span class="no">一、</span><span>人工智能开发入门</span
+                ><em>01</em>
+              </h3>
+              <p class="boxp1">
+                Python编程
+                <span
+                  ><em>基本语法</em><em>数据结构</em><em>函数</em
+                  ><em>面向对象</em><em>多任务</em><em>模块与包</em><em>闭包</em
+                  ><em>装饰器</em><em>迭代器</em></span
+                >
+              </p>
+              <p class="boxp1">
+                Numpy矩阵运算
+                <span
+                  ><em>Nadrray</em><em>Scalars</em><em>Boradcasting</em
+                  ><em>矩阵运算</em><em>矩阵转置</em><em>矩阵求逆</em></span
+                >
+              </p>
+              <p class="boxp1">
+                Scipy数值运算库
+                <span
+                  ><em>Scipy基本使用</em><em>Scipy常量</em><em>Scipy稀疏矩阵</em
+                  ><em>Scipy图结构</em><em>Scipy空间</em
+                  ><em>Scipy插值</em></span
+                >
+              </p>
+              <p class="boxp1">
+                Pandas数据科学库
+                <span
+                  ><em>自带数据结构</em><em>数据读取写入</em><em>数据清洗</em
+                  ><em>数据计算</em><em>数据合并</em><em>数据排序</em></span
+                >
+              </p>
+              <p class="boxp1">
+                Matplotlib
+                <span
+                  ><em>基础图表</em><em>基础图表</em><em>Annotation</em
+                  ><em>Figure</em><em>子图</em><em>Legend</em></span
+                >
+              </p>
+              <p class="boxp1">
+                Seaborn
+                <span
+                  ><em>数据关系图</em><em>数据分布图</em><em>类别图</em
+                  ><em>回归图</em><em>矩阵图</em><em>多变量关系</em></span
+                >
+              </p>
+              <p class="boxp1">
+                PyEcharts
+                <span
+                  ><em>基本使用</em><em>图表API</em><em>组合图表</em
+                  ><em>其他资源</em><em>图表类型</em><em>Web框架整合</em></span
+                >
+              </p>
+              <div class="boxbot">
+                <h4>阶段案例实战</h4>
+                <span>* RFM案例实战</span>
+                <span>* 电商运营案例实战</span>
+              </div>
+            </div>
+            <div class="boxa">
+              <span>课程视频</span>
+              <a href="javascript:navigate('927');" class="box4p1a1"
+                >1、零基础Python编程</a
+              >
+              <a href="javascript:navigate('499');" class="box4p1a2"
+                >2、零基础数据科学库</a
+              >
+            </div>
+          </li>
+          <li class="boxli2">
+            <div class="boxlidiv">
+              <h3>
+                <span class="no">二、</span><span>机器学习核心技术</span
+                ><em>02</em>
+              </h3>
+              <p class="boxp1">
+                Scikit Learn
+                <span
+                  ><em>聚类算法API</em><em>数据预处理</em><em>分类算法API</em
+                  ><em>回归算法API</em></span
+                >
+              </p>
+              <p class="boxp1">
+                分类算法
+                <span
+                  ><em>决策树</em><em>KNN</em><em>Adaboost</em><em>随机森林</em
+                  ><em>逻辑回归</em><em>朴素贝叶斯</em><em>GBDT</em
+                  ><em>XGboost</em><em>LightGBM</em></span
+                >
+              </p>
+              <p class="boxp1">
+                回归算法
+                <span
+                  ><em>线性回归</em><em>线性回归</em><em>Lasso回归</em
+                  ><em>决策树回归</em><em>随机森林回归</em
+                  ><em>XGboost回归</em></span
+                >
+              </p>
+              <p class="boxp1">
+                聚类算法
+                <span
+                  ><em>KMeans</em><em>KMeans++</em><em>GMM</em
+                  ><em>基于层次聚类</em><em>基于密度聚类</em
+                  ><em>DBSCAN</em></span
+                >
+              </p>
+              <p class="boxp1">
+                属性降维
+                <span
+                  ><em>属性降维</em><em>特征选择</em><em>因子分析</em
+                  ><em>PCA</em><em>ICA</em><em>LDA</em></span
+                >
+              </p>
+              <p class="boxp1">
+                模型选择
+                <span
+                  ><em>Metrics</em><em>Scoring模型得分</em
+                  ><em>Grid search 网格搜索</em
+                  ><em>Cross Validation 交叉验证</em
+                  ><em>Hyper-Parameters 超参数选择</em
+                  ><em>Validation curves 模型验证曲线</em></span
+                >
+              </p>
+              <p class="boxp1">
+                特征工程
+                <span
+                  ><em>Standardization标准化</em><em>Scaling Features归一化</em
+                  ><em>Non-linear transformation非线性转化</em
+                  ><em>Gaussian distribution高斯分布转化</em
+                  ><em>Normalization正则化</em
+                  ><em>Encoding categorical features类别性编码处理</em></span
+                >
+              </p>
+              <div class="boxbot">
+                <h4>阶段案例实战</h4>
+                <span>* 零售行业建模分析</span>
+                <span>* 电商用户画像行为分析</span>
+              </div>
+            </div>
+            <div class="boxa">
+              <span>课程视频</span>
+              <a href="javascript:navigate('500');" class="box4p2a1"
+                >1、零基础快速入门机器学习</a
+              >
+            </div>
+          </li>
+          <li class="boxli3">
+            <div class="boxlidiv">
+              <h3>
+                <span class="no">三、</span><span>深度学习核心技术</span
+                ><em>03</em>
+              </h3>
+              <p class="boxp1">
+                人工神经网络
+                <span
+                  ><em>损失函数</em><em>激活函数</em><em>Back Propagation</em
+                  ><em>优化方法及正则化</em></span
+                >
+              </p>
+              <p class="boxp1">
+                BP神经网络
+                <span
+                  ><em>网络基本结构</em><em>正向计算</em><em>链式法则</em
+                  ><em>权重更新</em><em>Sigmoid函数</em><em>梯度消失/爆炸</em
+                  ><em>Batch Normalization</em></span
+                >
+              </p>
+              <p class="boxp1">
+                CNN卷积神经网络
+                <span
+                  ><em>局部感受野</em><em>权值共享</em><em>DropOut</em
+                  ><em>卷积层</em><em>池化层</em><em>全连接层</em></span
+                >
+              </p>
+              <p class="boxp1">
+                RNN循环神经网络
+                <span
+                  ><em>梯度裁剪</em><em>双向长短时记忆网络（BiLSTM）</em
+                  ><em>长短时记忆网络（LSTM）</em
+                  ><em>门控神经网络(GRU)</em></span
+                >
+              </p>
+              <div class="boxbot">
+                <h4>阶段项目实战</h4>
+                <span>* 图像识别案例</span>
+                <span>* 文本处理案例</span>
+              </div>
+            </div>
+            <div class="boxa">
+              <span>课程视频</span>
+              <a
+                href="javascript:alert('视频正在准备中，敬请期待哦！');"
+                class="box4p3a1"
+                >1、深度学习核心技术课程(敬请期待)</a
+              >
+            </div>
+          </li>
+          <li class="boxli4">
+            <div class="boxlidiv">
+              <h3>
+                <span class="no">四、</span><span>NLP自然语言处理技术</span
+                ><em>04</em>
+              </h3>
+              <p class="boxp1">
+                Pytorch编程
+                <span
+                  ><em>定义损失函数</em><em>自动微分功能</em><em>定义优化器</em
+                  ><em>定义模型结构</em></span
+                >
+              </p>
+              <p class="boxp1">
+                传统序列模型
+                <span
+                  ><em>隐马尔科夫模型</em><em>条件随机场</em><em>原理与实践</em
+                  ><em>CRF与HMM区别</em></span
+                >
+              </p>
+              <p class="boxp1">
+                Transfomer原理
+                <span
+                  ><em>编码器</em><em>解码器</em><em>注意力机制</em
+                  ><em>语言模型</em><em>模型超参数</em><em>模型验证</em></span
+                >
+              </p>
+              <p class="boxp1">
+                文本预处理
+                <span
+                  ><em>文本处理基本方法</em><em>文本张量表示方法</em
+                  ><em>文本语料数据分析</em><em>数据增强方法</em
+                  ><em>命名实体识别</em><em>Word Embedding词嵌入</em></span
+                >
+              </p>
+              <p class="boxp1">
+                RNN及变体
+                <span
+                  ><em>传统RNN</em><em>LSTM</em><em>Bi-LSTM</em><em>GRU</em
+                  ><em>Bi-GRU</em><em>Seq2Seq</em></span
+                >
+              </p>
+              <p class="boxp1">
+                迁移学习
+                <span
+                  ><em>FastText</em><em>预训练模型</em><em>Google BERT</em
+                  ><em>GPT</em><em>GPT-2</em><em>权重微调</em></span
+                >
+              </p>
+              <div class="boxbot">
+                <h4>阶段项目实战</h4>
+                <span>* 文本分类</span>
+                <span>* 文本生成</span>
+              </div>
+            </div>
+            <div class="boxa">
+              <span>课程视频</span>
+              <a href="javascript:navigate('832');" class="box4p4a1"
+                >1、NLP基础</a
+              >
+              <a
+                href="javascript:alert('视频正在准备中，敬请期待哦！');"
+                class="box4p3a1"
+                >2、Pytorch编程(敬请期待)</a
+              >
+              <a
+                href="javascript:alert('视频正在准备中，敬请期待哦！');"
+                class="box4p3a1"
+                >3、Google BERT入门(敬请期待)</a
+              >
+              <a
+                href="javascript:alert('视频正在准备中，敬请期待哦！');"
+                class="box4p3a1"
+                >4、NLP项目实战(敬请期待)</a
+              >
+            </div>
+          </li>
+          <li class="boxli5">
+            <div class="boxlidiv">
+              <h3>
+                <span class="no">五、</span><span>CV计算机视觉技术</span
+                ><em>05</em>
+              </h3>
+              <p class="boxp1">
+                OpenCV图像处理
+                <span
+                  ><em>读写图像</em><em>灰度变换</em><em>几何变换</em
+                  ><em>形态学</em><em>纹理分割</em><em>视频操作</em
+                  ><em>边缘检测技术</em><em>特征检测和描述</em></span
+                >
+              </p>
+              <p class="boxp1">
+                Tensorflow编程
+                <span
+                  ><em>张量</em><em>变量</em><em>高阶API</em><em>tf.data</em
+                  ><em>tf.keras</em></span
+                >
+              </p>
+              <p class="boxp1">
+                目标分类
+                <span
+                  ><em>卷积计算方法</em><em>多通道卷积</em><em>AlexNet</em
+                  ><em>VGG</em><em>ResNet残差网络</em
+                  ><em>ImageNet分类</em></span
+                >
+              </p>
+              <p class="boxp1">
+                目标检测
+                <span
+                  ><em>RCNN</em><em>FPN</em><em>SSD</em><em>ROI Pooling</em
+                  ><em>FasterRCNN</em><em>非极大抑制NMS</em></span
+                >
+              </p>
+              <p class="boxp1">
+                目标分割
+                <span
+                  ><em>全卷积</em><em>ROI Align</em><em>DeepLab</em
+                  ><em>MaskRCNN</em><em>金字塔池化模块</em
+                  ><em>语义分割评价标准</em></span
+                >
+              </p>
+              <div class="boxbot">
+                <h4>阶段项目实战</h4>
+                <span>* 目标分类</span>
+                <span>* 目标检测</span>
+              </div>
+            </div>
+            <div class="boxa">
+              <span>课程视频</span>
+              <a href="javascript:navigate('845');" class="box4p5a1"
+                >1、OpenCV入门</a
+              >
+              <a href="javascript:navigate('501');" class="box4p5a2"
+                >2、Tensorflow框架</a
+              >
+              <a href="javascript:navigate('846');" class="box4p5a3"
+                >3、CV计算机视觉项目实战</a
+              >
+            </div>
+          </li>
+          <li class="boxli6">
+            <div class="boxlidiv">
+              <h3>
+                <span class="no">六、</span><span>大厂面试专题</span><em>06</em>
+              </h3>
+              <p class="boxp1">
+                数据结构
+                <span
+                  ><em>栈</em><em>树</em><em>图</em><em>数组</em><em>链表</em
+                  ><em>哈希表</em></span
+                >
+              </p>
+              <p class="boxp1">
+                常见算法
+                <span
+                  ><em>排序</em><em>查找</em><em>链表算法</em><em>动态规划</em
+                  ><em>二叉树</em><em>递归算法</em><em>贪心算法</em
+                  ><em>图算法</em><em>队列算法</em></span
+                >
+              </p>
+              <p class="boxp1">
+                机器学习&深度学习
+                <span
+                  ><em>分类算法面试专题</em><em>聚类算法面试专题</em
+                  ><em>回归算法面试专题</em><em>深度学习基础面试专题</em></span
+                >
+              </p>
+              <p class="boxp1">
+                NLP & CV面试专题
+                <span
+                  ><em>深度学习与NLP面试专题</em
+                  ><em>深度学习与CV面试专题</em></span
+                >
+              </p>
+            </div>
+            <div class="boxa">
+              <span>课程视频</span>
+              <a
+                href="javascript:alert('视频正在准备中，敬请期待哦！');"
+                class="box4p3a1"
+                >1、北大硕士算法专题课(敬请期待)</a
+              >
+              <a
+                href="javascript:alert('视频正在准备中，敬请期待哦！');"
+                class="box4p3a1"
+                >2、AI面试加强专项课(敬请期待)</a
+              >
+            </div>
+            <img src="/subject/javamap/images/ewm2.jpg" class="pc" />
+            <img src="/subject/javamap/images/ewm4.jpg" class="yd" />
+            <br />
+          </li>
+        </ul>
+      </div>
+      <div class="boxbotmain">
+        <h3>学习路线图说明</h3>
+        <p>
+          <span class="span1">阶段一</span
+          ><span class="span2"
+            ><b>人工智能开发入门：</b
+            >从人工智能Python语言入手，掌握Python基础语法，对后续学习打下坚实基础。</span
+          >
+        </p>
+        <p>
+          <span class="span1">阶段二</span
+          ><span class="span2"
+            ><b>机器学习核心技术：</b
+            >掌握核心机器学习算法原理，掌握分类、回归、聚类使用场景，满足人工智能数据挖掘类岗位，据相关招聘网站显示薪资可达到15K-20K。</span
+          >
+        </p>
+        <p>
+          <span class="span1">阶段三</span
+          ><span class="span2"
+            ><b>深度学习核心技术：</b
+            >掌握深度学习算法原理，掌握BP神经网络、CNN、RNN等基础网络结构，为后续NLP和CV奠定技术基础。</span
+          >
+        </p>
+        <p>
+          <span class="span1">阶段四</span
+          ><span class="span2"
+            ><b>NLP自然语言处理技术：</b
+            >本阶段课程将掌握突破市场更高年薪的NLP技术，学生可应对市场上NLP工程师，根据市场反馈薪资可突破30K。</span
+          >
+        </p>
+        <p>
+          <span class="span1">阶段五</span
+          ><span class="span2"
+            ><b>CV计算机视觉技术：</b
+            >掌握计算机视觉基础算法原理，掌握目标检测、分类、跟踪等各类CV任务，学生可应对市场上CV工程师岗位，根据互联网人才招聘数据显示薪资可达20K以上。</span
+          >
+        </p>
+        <p>
+          <span class="span1">阶段六</span
+          ><span class="span2"
+            ><b>大厂面试专题：</b
+            >围绕大厂高频面试题，给出详尽解答，针对机器学习、深度学习、CV、NLP、数据结构与算法系列等专题精心设计，圆你大厂梦！</span
+          >
+        </p>
+      </div>
+    </div>
+    <script type="text/Javascript" src="/js/index.js?v20220721"></script>
+  </body>
+</html>
